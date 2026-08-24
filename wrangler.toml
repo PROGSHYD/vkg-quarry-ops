@@ -1,5 +1,4 @@
-﻿@'
-name = "vkg-quarry-ops"
+﻿name = "vkg-quarry-ops"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 main = ".vercel/output/static/_worker.js/index.js"
@@ -20,4 +19,3 @@ invocation_logs = true
 [assets]
 directory = ".vercel/output/static"
 binding = "ASSETS"
-'@ | Out-File -FilePath wrangler.toml -Encoding utf8
